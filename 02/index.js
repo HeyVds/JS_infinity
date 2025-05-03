@@ -1,6 +1,6 @@
 let nome = prompt("Digite seu nome: ");
-let altura = prompt("Digite sua altura: ");
-let massa = prompt("Digite seu peso: ");
+let altura = Number(prompt("Digite sua altura: "));
+let massa = Number(prompt("Digite seu peso: "));
 let imc = massa / altura ** 2;
 let classificacao = "";
 if (imc < 16) {
